@@ -1,0 +1,128 @@
+H1{
+    text-align: center;
+    color: brown;
+}
+.main{
+    margin: auto;
+    justify-content: center;
+    position: relative;
+}
+.border1 {
+    width: 0px;
+    height: 20px;
+    position: absolute;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  .border2 {
+    width: 0px;
+    height: 20px;
+    position: absolute;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  .border3 {
+    width: 0px;
+    height: 20px;
+    position: absolute;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  .border4 {
+    width: 0px;
+    height: 20px;
+    position: absolute;
+    animation-name: example4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example1 {
+    0%   {background-color:red; 
+        left:0px; 
+        top:0px;
+        width:20px;
+        height:20px;
+    }
+    70%  {background-color:green;
+        left:250px; 
+        top:0px;
+        width: 250px;
+        height: 20px;
+    }
+    100%{
+        background-color:blue;
+        left:500px; 
+        top:0px;
+        width: 20px;
+        height: 20px;
+        }
+    }
+ @keyframes example2 {
+    0%   {background-color:red;
+        top:0px;
+        left:500px;
+        width:20px;
+        height:20px;
+    }
+    70%  {background-color: green;
+        left:500px; 
+        top:250px;
+        width: 20px;
+        height: 250px;
+    }
+    100%{
+        background-color:blue;
+        left:500px; 
+        top:480px;
+        width: 20px;
+        height: 20px;
+        }
+    }
+ @keyframes example3 {
+    0%   {background-color:red; 
+        left:500px; 
+        top:500px;
+        width:20px;
+        height:20px;
+    }
+    70%  {background-color:green;
+        left:0px; 
+        top:500px;
+        width: 250px;
+        height: 20px;
+    }
+    100%{
+        background-color:blue;
+        left:0px; 
+        top:500px;
+        width: 20px;
+        height: 20px;
+        }
+    }
+     @keyframes example4 {
+    0%   {background-color:red; 
+        top:500px;
+        left: 0px;
+        width:20px;
+        height:20px;
+    }
+    70%  {background-color:green;
+        top: 0px;
+        left:0px; 
+        width: 20px;
+        height: 250px;
+    }
+    100%{
+        background-color:blue;
+        left:0px; 
+        top:0px;
+        width: 20px;
+        height: 20px;
+        }
+    }
+  
+
+  

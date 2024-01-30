@@ -1,0 +1,52 @@
+h1 {
+    padding: 20px;
+     text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: red;
+}
+.Ims {
+    display: flex;
+    padding: 5px;
+ }
+.Ims .left {
+    width: 50%;
+ }
+ .Ims .left img {
+    width: 90%;
+    height: 300px;
+    border-radius: 2rem;
+ }
+.Ims .right {
+    width: 50%;
+}
+.Ims .right img {
+    width: 90%;
+    height: 300px;
+    border-radius: 2rem;
+}
+.images {
+    padding: 10px;
+}
+.table1{
+    position: relative;
+}
+.table2{
+    position: relative;
+}
+.table3{
+    position:relative;
+}
+.table4{
+    position: relative;
+}
+.Ims .images:hover {
+    background: none;
+    padding: 10px;
+ }
+.Ims .images:hover img {
+    opacity: 1;
+ }
+.Ims .images img {
+    opacity: 0.5;
+}
