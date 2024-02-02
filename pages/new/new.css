@@ -1,0 +1,10 @@
+h1::after{
+    width: 300px;
+    height: 2px;
+}
+body{
+    background-color: aqua;
+}
+h1:hover{
+    color: bro
+}
